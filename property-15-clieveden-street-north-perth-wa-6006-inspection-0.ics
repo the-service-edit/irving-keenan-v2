@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Irving & Keenan//Inspections//EN
+BEGIN:VEVENT
+UID:s-15-clieveden-street-north-perth-2026-09-19-11:00@irvingandkeenan.com.au
+DTSTAMP:20260917T070359Z
+DTSTART;TZID=Australia/Perth:20260919T110000
+DTEND;TZID=Australia/Perth:20260919T114000
+SUMMARY:Inspection: 15 Clieveden Street, North Perth
+LOCATION:15 Clieveden Street\, North Perth WA 6006
+DESCRIPTION:Home open with Irving & Keenan. Sales (08) 9272 0566 · Rentals (08) 9272 0522
+END:VEVENT
+END:VCALENDAR

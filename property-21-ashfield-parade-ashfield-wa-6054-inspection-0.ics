@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Irving & Keenan//Inspections//EN
+BEGIN:VEVENT
+UID:s-21-ashfield-parade-ashfield-2026-09-19-13:00@irvingandkeenan.com.au
+DTSTAMP:20260917T070359Z
+DTSTART;TZID=Australia/Perth:20260919T130000
+DTEND;TZID=Australia/Perth:20260919T134000
+SUMMARY:Inspection: 21 Ashfield Parade, Ashfield
+LOCATION:21 Ashfield Parade\, Ashfield WA 6054
+DESCRIPTION:Home open with Irving & Keenan. Sales (08) 9272 0566 · Rentals (08) 9272 0522
+END:VEVENT
+END:VCALENDAR

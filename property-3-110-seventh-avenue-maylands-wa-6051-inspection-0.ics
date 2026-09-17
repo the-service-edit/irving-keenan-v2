@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Irving & Keenan//Inspections//EN
+BEGIN:VEVENT
+UID:r-3-110-seventh-avenue-maylands-2026-09-17-13:00@irvingandkeenan.com.au
+DTSTAMP:20260917T070359Z
+DTSTART;TZID=Australia/Perth:20260917T130000
+DTEND;TZID=Australia/Perth:20260917T132000
+SUMMARY:Inspection: 3/110 Seventh Avenue, Maylands
+LOCATION:3/110 Seventh Avenue\, Maylands WA 6051
+DESCRIPTION:Home open with Irving & Keenan. Sales (08) 9272 0566 · Rentals (08) 9272 0522
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Irving & Keenan//Inspections//EN
+BEGIN:VEVENT
+UID:r-9-mccarthy-street-perth-2026-09-19-10:00@irvingandkeenan.com.au
+DTSTAMP:20260917T070359Z
+DTSTART;TZID=Australia/Perth:20260919T100000
+DTEND;TZID=Australia/Perth:20260919T102000
+SUMMARY:Inspection: 9 McCarthy Street, Perth
+LOCATION:9 McCarthy Street\, Perth WA 6000
+DESCRIPTION:Home open with Irving & Keenan. Sales (08) 9272 0566 · Rentals (08) 9272 0522
+END:VEVENT
+END:VCALENDAR
