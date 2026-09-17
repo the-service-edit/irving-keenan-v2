@@ -789,3 +789,26 @@ a:hover { color: var(--brand); }
   .b-stats dd { font-size: 30px; }
   .b-stats dt { font-size: 12.5px; line-height: 1.3; }
 }
+
+/* Hero noticeboard (replaces the white three-tile bar) */
+.hero-tiles.nb ul { background: none; box-shadow: none; max-width: 1080px; gap: 16px; border-radius: 0; }
+.hero-tiles.nb li + li { border-left: 0; }
+.nb-card { display: flex !important; flex-direction: column; align-items: stretch !important; justify-content: flex-start; gap: 10px; min-height: 176px !important; padding: 18px 20px 14px !important; text-align: left !important; background: var(--paper) !important; border-radius: 8px; border-top: 4px solid var(--gold); box-shadow: 0 16px 36px rgba(31, 28, 26, .18); font-family: var(--font) !important; transition: transform .2s var(--ease), box-shadow .2s; }
+.nb-card:hover { transform: translateY(-3px); box-shadow: 0 22px 44px rgba(31, 28, 26, .22); background: #fff !important; }
+.nb-ink { border-top-color: var(--ink); }
+.nb-red { border-top-color: var(--brand); }
+.nb-k { font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-2); line-height: 1.2; }
+.nb-main { display: flex; align-items: center; gap: 12px; }
+.nb-big { font-family: var(--display); font-size: clamp(24px, 2.2vw, 30px); line-height: 1.08; color: var(--ink); }
+.nb-cal { flex: none; width: 50px; border-radius: 6px; overflow: hidden; text-align: center; border: 1px solid var(--line); background: #fff; }
+.nb-cal span { display: block; background: var(--brand); color: #fff; font-size: 10.5px; font-weight: 600; letter-spacing: .06em; line-height: 1.9; }
+.nb-cal b { display: block; font-family: var(--display); font-weight: 500; font-size: 22px; line-height: 1.35; color: var(--ink); }
+.nb-go { margin-top: auto; display: flex; justify-content: space-between; align-items: center; gap: 8px; padding-top: 10px; border-top: 1px solid var(--line); font-size: 15px; font-weight: 600; color: var(--ink); }
+.nb-go .i { width: 18px; height: 18px; transition: transform .2s var(--ease); }
+.nb-card:hover .nb-go .i { transform: translateX(3px); }
+@media (max-width: 700px) {
+  .hero-tiles.nb ul { grid-template-columns: 1fr; gap: 10px; }
+  .nb-card { min-height: 0 !important; padding: 14px 16px 12px !important; gap: 6px; }
+  .nb-big { font-size: 24px; }
+  .nb-go { padding-top: 8px; font-size: 14.5px; }
+}
